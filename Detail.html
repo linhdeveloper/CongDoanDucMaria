@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cộng Đoàn Đức Maria Mẹ Thiên Chúa, Giáo Xứ St. Polycarp, 8100 Chapman Ave, Stanton, CA 90680">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Cộng Đoàn Đức Maria Mẹ Thiên Chúa, Giáo Xứ St. Polycarp, 8100 Chapman Ave, Stanton, CA 90680</title>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/site.js"></script>
+    <script>
+        $(document).ready(function () {   
+            $('#mainContent').load(getQSValue(window.location.href));
+            setTimeout(function () {
+                $('#mnuTinTuc').addClass('active');
+            }, 100);
+        });
+       
+    </script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+
+</head>
+<body class="p-3 bd-cyan-900" >    
+    <div class="container">
+        <div id="headerTop"></div> 
+        <div id="menu"></div>   
+        <div class="row mainbody m-0">
+            <div class="col-md-9 leftpanel">            
+                <div id="mainContent"></div>
+            </div>
+            <div class="col-md-3">
+                <div id="images"></div>
+                <div id="plans"></div>
+                <div id="massShedule"></div>
+                <div id="links"></div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+$(document).ready(function () {
+    $('#headerTop').load("include/_shared/HeaderTop.html");
+    $('#menu').load("include/_shared/menu.html");
+    $('#images').load("include/_shared/images.html");
+    $('#plans').load("include/_shared/plans.html");
+    $('#massShedule').load("include/_shared/MassSchedule.html");
+    $('#links').load("include/_shared/Links.html");    
+    $('#footer').load("include/_shared/Footer.html");
+});
+
+function getQSValue( url) {
+    key = 'p';
+    query_string = url.split('?');
+    string_values = query_string[1].split('&');
+    for (i = 0; i < string_values.length; i++) {
+        if (string_values[i].match(key))
+            req_value = string_values[i].split('=');
+    }
+    var file = "include/" + req_value[1] + ".html";
+    //return req_value[1];
+    return file;
+}
