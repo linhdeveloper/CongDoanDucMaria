@@ -6,6 +6,17 @@ $(document).ready(function () {
     $('#massShedule').load("include/_shared/MassSchedule.html");
     $('#links').load("include/_shared/Links.html");    
     $('#footer').load("include/_shared/Footer.html");
+  
+ 
+    setTimeout(() => {
+        $("#mnuTrangChu, #mnuTinTuc, #mnuHoiDoan, #mnuHinhAnh, #mnuGioLe, #mnuLienLac").click(function () {
+            ShowLoading();
+        });      
+        $("a").click(function () {
+            ShowLoading();        
+        });
+    }, 300);
+
 });
 
 function getQSValue( url) {
@@ -19,4 +30,9 @@ function getQSValue( url) {
     var file = "include/" + req_value[1] + ".html";
     //return req_value[1];
     return file;
+}
+
+
+function ShowLoading() {
+    $("#iconLoading").show();
 }
