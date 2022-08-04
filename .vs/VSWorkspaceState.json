@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\Include"
+    "\\Include",
+    "\\Include\\_shared",
+    "\\Js"
   ],
+  "SelectedNode": "\\Js\\site.js",
   "PreviewInSolutionExplorer": false
 }
