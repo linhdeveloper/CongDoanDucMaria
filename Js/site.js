@@ -9,10 +9,10 @@ $(document).ready(function () {
   
  
     setTimeout(() => {
-        $("#mnuTrangChu, #mnuTinTuc, #mnuHoiDoan, #mnuHinhAnh, #mnuGioLe, #mnuLienLac").click(function () {
+        $("#mnuTrangChu, #mnuTinTuc, #mnuHinhAnh, #mnuGioLe, #mnuLienLac").click(function () {
             ShowLoading();
         });      
-        $("a").click(function () {
+        $("a").not("#mnuHoiDoan,#BacktoTop").click(function () {
             ShowLoading();        
         });
     }, 300);
