@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\Css",
     "\\Include",
     "\\Include\\_shared",
     "\\Js"
   ],
+  "SelectedNode": "\\Include\\_shared\\Menu.html",
   "PreviewInSolutionExplorer": false
 }
