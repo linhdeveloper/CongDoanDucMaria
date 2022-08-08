@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\Css",
     "\\Include",
     "\\Include\\_shared",
     "\\Js"
   ],
-  "SelectedNode": "\\Js\\site.js",
+  "SelectedNode": "\\Include\\ScheduleList.html",
   "PreviewInSolutionExplorer": false
 }

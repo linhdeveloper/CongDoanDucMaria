@@ -107,7 +107,9 @@ body {
     text-decoration: none;
     color: #071C94;
 }   
-
+a{
+    text-decoration:none !important;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
