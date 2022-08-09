@@ -125,7 +125,7 @@ a{
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 64rem;
+    height: 68rem;
 }
 .carousel-item > img {
   position: absolute;
