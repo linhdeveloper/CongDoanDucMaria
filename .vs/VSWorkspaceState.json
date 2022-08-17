@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Css",
-    "\\Images",
     "\\Images\\Bulletin",
     "\\Include",
     "\\Include\\_shared",
     "\\Js"
   ],
-  "SelectedNode": "\\Css\\carousel.css",
+  "SelectedNode": "\\Include\\_shared\\Images.html",
   "PreviewInSolutionExplorer": false
 }
