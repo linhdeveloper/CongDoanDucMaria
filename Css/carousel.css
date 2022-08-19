@@ -103,7 +103,7 @@ body {
 }
 
 
-#ctnLinks a {
+#ctnLinks a,#divContact a {
     text-decoration: none;
     color: #071C94;
 }   

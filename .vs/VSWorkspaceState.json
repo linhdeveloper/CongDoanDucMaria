@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Css",
+    "\\Images",
     "\\Images\\Bulletin",
     "\\Include",
-    "\\Include\\_shared",
     "\\Js"
   ],
-  "SelectedNode": "\\Include\\_shared\\Images.html",
+  "SelectedNode": "\\Js\\site.js",
   "PreviewInSolutionExplorer": false
 }

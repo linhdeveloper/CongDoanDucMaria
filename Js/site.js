@@ -12,7 +12,7 @@ $(document).ready(function () {
         $("#mnuTrangChu, #mnuTinTuc, #mnuHinhAnh, #mnuGioLe, #mnuLienLac").click(function () {
             ShowLoading();
         });      
-        $("a").not("#mnuHoiDoan,#BacktoTop").click(function () {
+        $("a").not("#mnuHoiDoan,#BacktoTop,#divContact a").click(function () {
             ShowLoading();        
         });
     }, 300);
