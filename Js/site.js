@@ -1,11 +1,16 @@
 $(document).ready(function () {
     $('#headerTop').load("include/_shared/HeaderTop.html");
     $('#menu').load("include/_shared/menu.html");
-    $('#images').load("include/_shared/images.html");
-    $('#plans').load("include/_shared/plans.html");
-    $('#massShedule').load("include/_shared/MassSchedule.html");
-    $('#links').load("include/_shared/Links.html");    
+    $('#menuLeft').load("include/_shared/MenuLeft.html");
     $('#footer').load("include/_shared/Footer.html");
+
+
+    setTimeout(() => {
+        $('#images').load("include/_shared/images.html");
+        $('#plans').load("include/_shared/plans.html");
+        $('#massShedule').load("include/_shared/MassSchedule.html");
+        $('#links').load("include/_shared/Links.html");    
+    }, 300);
   
  
     setTimeout(() => {

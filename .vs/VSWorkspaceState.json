@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Css",
+    "\\Images",
     "\\Images\\Bulletin",
-    "\\Include"
+    "\\Include",
+    "\\Include\\_shared",
+    "\\Js"
   ],
-  "SelectedNode": "\\Include\\LatestNews.html",
+  "SelectedNode": "\\News.html",
   "PreviewInSolutionExplorer": false
 }

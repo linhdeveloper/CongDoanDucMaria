@@ -8,6 +8,7 @@ body {
     color: #5a5a5a;
     background-image: linear-gradient( rgba(36, 113, 163 ), #AED6F1,rgba(93, 173, 226)) ;
     background-repeat:no-repeat;
+    font-size:1.1em;
 }
 .mainbody {
     background-color: #0E6F77;
