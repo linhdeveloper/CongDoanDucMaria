@@ -10,7 +10,7 @@ $(document).ready(function () {
         $('#plans').load("include/_shared/plans.html");
         $('#massShedule').load("include/_shared/MassSchedule.html");
         $('#links').load("include/_shared/Links.html");    
-    }, 300);
+    }, 600);
   
  
     setTimeout(() => {
@@ -20,7 +20,7 @@ $(document).ready(function () {
         $("a").not("#mnuHoiDoan,#BacktoTop,#divContact a").click(function () {
             ShowLoading();        
         });
-    }, 300);
+    }, 600);
 
 });
 
