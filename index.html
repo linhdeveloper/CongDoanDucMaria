@@ -12,7 +12,8 @@
     <script src="JS/site.js"></script>
     <script>
         $(document).ready(function () {
-            $('#mainContent').load("include/LatestNews.html");        
+            $('#mainContent').load("include/LatestNews.html");   
+            $('#slideshow').load("include/SlideShow.html");  
             setTimeout(function () {
                 $('#mnuTrangChu').addClass('active');               
             }, 500);
@@ -47,6 +48,7 @@
         <div id="menu"></div>   
         <div class="row mainbody m-0">
             <div class="col-md-9 leftpanel">            
+                <div id="slideshow"></div>
                 <div id="mainContent"></div>
             </div>
             <div class="col-md-3">
