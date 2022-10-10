@@ -50,6 +50,9 @@ body {
     color: #154360 !important;
     text-shadow: 0.5px 0.5px 0.5px darkgray;
 }
+.card-body h5{
+    font-weight:bold !important;
+}
 .container h5 {
     font-weight: normal;
     /*font-size:18px;*/
